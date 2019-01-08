@@ -1,6 +1,8 @@
-/HousePriceTrendsCoursework.iml
+*.iml
 /.idea/
 /.gradle/
 /database/
 /build/
 /out/
+*.ipr
+*.iws

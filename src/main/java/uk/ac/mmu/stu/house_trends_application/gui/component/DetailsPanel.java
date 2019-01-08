@@ -46,11 +46,10 @@ public class DetailsPanel extends JPanel {
         gridBagConstraints.gridy = 2;
         JButton button = new JButton("Search");
         button.addActionListener(e -> {
-            String example = textArea.getText();
-            System.out.println(example);
+            String postcode = textArea.getText();
             SQLQuery sqlQuery = new SQLQuery();
-            sqlQuery.queryDataBase(example);
-            System.out.println("Complete");
+            sqlQuery.queryDataBase(postcode);
+
         });
         return button;
     }

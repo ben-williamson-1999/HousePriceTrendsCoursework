@@ -15,8 +15,6 @@ public class SwingGUI extends JFrame {
 
         setLayout(new FlowLayout());
 
-        //GridBagConstraints gridBagConstraints = new GridBagConstraints();
-
         DetailsPanel detailsPanel = new DetailsPanel();
 
         ResultsTablePanel resultsTablePanel = new ResultsTablePanel(this);
@@ -24,7 +22,5 @@ public class SwingGUI extends JFrame {
         container.add(detailsPanel);
 
         container.add(resultsTablePanel);
-
-        container.repaint();
     }
 }

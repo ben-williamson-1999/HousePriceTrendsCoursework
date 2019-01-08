@@ -30,10 +30,14 @@ public class SQLQuery {
                         .setLocality(rs.getString("locality")).setStreet(rs.getString("street")));
             }
 
+            if (!listOfHouses.isEmpty()) {
+
+            }
+
             
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
 
     }
