@@ -1,8 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
 *.iml
-/.idea/
-/.gradle/
-/database/
-/build/
-/out/
 *.ipr
 *.iws
+/.gradle/
+/.idea/
+/build/
+/external-libraries/
+/out/
